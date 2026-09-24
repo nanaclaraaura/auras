@@ -1,0 +1,165 @@
+/*configurações gerais*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2c446;
+ color:#33063b
+}
+/*cabeçalho*/
+header {
+    background-color: #ed34b3;
+    padding: 20px;
+    text-align: center;
+}
+/*menu de navegação*/
+nav {
+    background-color:aquamarine;
+}
+display: flex;
+justify-content: center;
+gap: 30px;
+padding: 15px;
+
+.menu a {
+color: #ed344d;
+text-decoration: none;
+}
+/*conteúdo principal*/
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+/* banner*/
+.banner {
+    background-color: #34d4ed;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+}
+.banner h2 {
+    margin-bottom: 15px;
+}
+/*seção de produtos*/
+.produtos h2 {
+    text-align: center;
+    padding: 20px;
+
+}
+/*div que organiza os produtos*/
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+/*cartão de produto*/
+.produto {
+    background-color: #6e2f78;
+    padding: 15px;
+    width: 300px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+/*imagem do produto*/
+.produto img {
+    width: 100%;
+    border-radius: 5px;
+}
+/*nome do produto*/
+.produto p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/*botao de compra*/
+.botao-comprar {
+    background-color: white;
+    color:#34d4ed;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+/*efeito hover no botao de compra*/
+.botao-comprar:hover {
+    background-color: white;
+
+}
+/*seção de sobre*/
+.sobre {
+    background-color: rgb(243, 131, 131);
+    margin-top: 30px;
+    padding: 40px 20px;
+    text-align: center;
+
+}
+.sobre h2 {
+    margin-bottom: 15px;
+}
+/*seção de contato*/
+.contato {
+    background-color:#33063b;
+    padding: 40px 20px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.contato h2 {
+    margin-bottom: 15px;
+
+}
+/*rodapé*/
+footer {
+    background-color:rgb(50, 161, 180);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+/*modal*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:aqua;
+    background-color:aquamarine;
+}
+.modal-content {
+    background-color:#ed344d;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+/*imagem do modal*/
+.modal-content img {
+    width: 100%;
+    border-radius: 5px;
+}
+/*botao de fechar modal*/
+.fechar {
+    color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+}

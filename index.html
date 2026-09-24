@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    <!-- Link para o arquivo css-->
+        <link rel="stylesheet" href="style.css">
+    <content="width=device-width, initial-scale=1.0">
+    <title>site de compras</title>
+</head>
+<body>
+    <header>
+    <!-- CABEÇALHO DO SITE -->
+<!--DIV QUE CONTEM O NOME DA LOJA-->
+<div class="logo">
+    <h1>Minha loja</h1>
+    <p>produtos para você</p>
+</div>
+</header>
+<nav>
+    <!-- A tag <a> cria um link. 
+        href define o endereço para onde o usuário será direcionado.
+       target="_blank" abre o link em uma nova aba -->
+    <div class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+   </div>
+</nav>
+<! -- conteudo principal do site -->
+<main>
+    <!-- Seção inicial-->
+     <section id="inicio">
+        <div class="banner">
+            <h2> Bem-vindo à loja</h2>
+            <p> confira nossos produtos
+            </p>
+        </div>
+     </section>
+     <!-- Seção de produtos-->
+     <section id="produtos">
+        <h2> Nossos Produtos</h2>
+        <!--div com todos os produtos-->
+        <div class="produtos">
+            <!--imagens do produto-->
+            <img src="https://i.pinimg.com/736x/5c/33/a8/5c33a8ce3e9c7a40298bed4e4ecd72e8.jpg"
+            alt="Produto 1 - Pato"
+            >
+            <h3> pato</h3>
+            <p class="preco"> 
+                R$ 10,00</p>
+     </section>
+<section id="produtos">
+    <img src="https://i.pinimg.com/1200x/77/04/be/7704bef13741d1fca04d9c91cd3d1b5b.jpg"
+    alt="Produto 2 - Cubo mágico">
+    <h3> Cubo mágico</h3>
+    <p class="preco" > R$ 12,00</p>
+</section>
+<section id="produtos">
+    <img src="https://i.pinimg.com/736x/3c/b8/25/3cb825bd34176772c6acafad4f716e57.jpg"
+    alt="Produto 3 - Miku">
+    <h3> Miku</h3>
+    <p class="preco"> R$ 25,00</p>
+</section>
+<section id="produtos">
+    <img src="https://i.pinimg.com/736x/ee/7d/b6/ee7db6b0c7ce146a90ad34ed6b6eee7c.jpg"
+    alt="Produto 4 - Kasane Teto">
+ <h3> Kasane Teto</h3>
+ <p class="preco"> R$ 35,00</p>
+ <!-- botao que abre o modal -->
+  <button>
+    class="botao"
+    onclick="document.getElementById('modal-brinquedos').style.display
+    = 'block'
+    >
+    comprar
+  </button>
+         </div>
+</section>
+<!-- Seção sobre a loja-->
+<section id="sobre">
+    <div class="sobre">
+<h2> Sobre a loja</h2>
+<p> somos uma loja que vende brinquedos e coisas muito legals 676767 compre conosco agora</p>
+    </div>
+</section>
+<!-- Seção de contato -->
+ <section id="contato">
+    <div class="contato">
+        <h2> Contato</h2>
+        <p>
+            email: kasanetetoaura@vocaloid.com
+        </p>
+    </div>
+ </section>
+</main>
+<!-- FOOTER SE,PRE FORA DA MAIN-->
+<!-- FOOTER -->
+ <footer>
+<div class="rodape">
+    <p>
+        &copy; 1967 - loja de brinquedos e coisas legais 676767
+    </p>
+</div>
+ </footer>
+</body>
+</html>
